@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz on Indian Epics</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>🧠 Welcome! Quiz on Indian Epics</h1>
+
+    <!-- Start Button -->
+    <button id="start-btn">Start Quiz</button>
+
+    <!-- Quiz Elements (initially hidden) -->
+    <div id="quiz-box" style="display: none;">
+      <div class="timer-text" id="timer"></div>
+      <div class="question-text" id="question"></div>
+      <div class="options-container" id="options"></div>
+      <div class="result-text" id="result"></div>
+      <button id="next-btn">Next</button>
+    </div>
+
+    <!-- Final Score -->
+    <div id="final-score" style="display: none; font-size: 1.2rem; margin-top: 20px;"></div>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
